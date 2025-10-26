@@ -1,0 +1,28 @@
+kafka-python
+pyspark==3.3.0
+textblob==0.17.1
+psycopg2-binary
+
+# Core Dashboard & Data Libraries
+streamlit>=1.26.0
+pandas>=2.0.0
+plotly>=5.15.0
+numpy
+
+# For LLM Chatbot Integration (Local Ollama)
+langchain
+langchain-community
+langchain-ollama
+
+
+# Optional: For trendline in charts
+statsmodels
+
+# From your audio processing script
+python-dotenv
+vosk>=0.3.45
+pydub>=0.25.1
+requests>=2.31.0
+
+
+
